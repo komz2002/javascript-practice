@@ -1,0 +1,1 @@
+Define two variables with different data types
