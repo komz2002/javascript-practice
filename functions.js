@@ -1,21 +1,21 @@
 
 // function are used for performing particular task and code reusebilty
-function mango(){ let name="komal";
-console.log(name);
-}
-mango();
-mango();
-mango();
-mango();
-mango();
+// function mango(){ let name="komal";
+// console.log(name);
+// }
+// mango();
+// mango();
+// mango();
+// mango();
+// mango();
 
 // paramaterized functions
-// function multiply(a,b){
-//     console.log(a*b);
+function multiply(a,b){
+    console.log(a*b);
     
-// }
-// multiply(3,7);
-// multiply(4,7);
+}
+multiply(3,7);
+multiply(4,7);
 
 
 // function divide(a,b){

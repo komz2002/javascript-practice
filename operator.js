@@ -23,16 +23,16 @@
 // let isEqual = (11 == 5); // Equal
 // let isNotEqual = (num1 != num2); // Not Equal
 // let isStrictEqual = (num1 === num2); // value and data type check(9==9)
-// let isStrictNotEqual = (num1 !== num2); // value and data type both will check(9!==9)
+let isStrictNotEqual = (11 !== "12"); // value and data type both will check(9!==9)
 // let isGreaterThan = (num1 > num2); // Greater Than
 // let isLessThan = (num1 < num2); // Less Than
 // let isGreaterOrEqual = (num1 >= num2); // Greater Than or Equal To
 // let isLessOrEqual = (num1 <= num2); // Less Than or Equal To
-
-// console.log("Equal:", isEqual); // Output: Equal: false
+// console.log("Equal:", isEqual); 
+// Output: Equal: false
 // console.log("Not Equal:", isNotEqual); // Output: Not Equal: true
 // console.log("Strict Equal:", isStrictEqual); // Output: Strict Equal: false
-// console.log("Strict Not Equal:", isStrictNotEqual); // Output: Strict Not Equal: true
+console.log("Strict Not Equal:", isStrictNotEqual); // Output: Strict Not Equal: true
 // console.log("Greater Than:", isGreaterThan); // Output: Greater Than: true
 // console.log("Less Than:", isLessThan); // Output: Less Than: false
 // console.log("Greater Than or Equal To:", isGreaterOrEqual); // Output: Greater Than or Equal To: true
@@ -79,3 +79,9 @@
 // console.log("Logical Not:", logicalNot); // Output: Logical Not: false
 // console.log("Increment Unary:", incrementUnary); // Output: Increment Unary: 11
 // console.log("Decrement Unary:", decrementUnary); // Output: Decrement Unary: 10
+
+
+// ternary operators
+// let age=14;
+// let result=age>=18?"adult":"not adult";/* simpler and compact form of if else statement8*/
+// console.log(result);

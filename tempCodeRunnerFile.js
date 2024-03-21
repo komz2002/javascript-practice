@@ -1,8 +1,1 @@
-function mango(){ let name="komal";
-console.log(name);
-}
-mango();
-mango();
-mango();
-mango();
-mango();
+two(9,7)
